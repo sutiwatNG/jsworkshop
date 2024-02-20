@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: black;
+}
+input{
+    width: 100%;
+    outline: none;
+    padding: 10px;
+    font-size: 20px;
+    border: 1px solid #dedede;
+    border-radius: 2px;
+}
+h1{
+    color: aliceblue;
+    font-size: 100px;
+    margin-bottom: 10px;
+}

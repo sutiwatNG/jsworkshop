@@ -1,0 +1,57 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    background-color: #fff;
+    margin:0;
+}
+header{
+    background-image: url('https://cdn.pixabay.com/photo/2015/05/07/11/02/guitar-756326_960_720.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+    position: relative;
+}
+form button{
+    border-radius: 50px;
+    font-size: 16px;
+    background-color: aquamarine;
+    margin: 0;
+    padding: 13px 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 1px;
+    right: 1px;
+}
+button:active{
+    transform: scale(0.9s);
+}
+input:focus,button:focus{
+    outline: none;
+}
+form{
+    position: relative;
+    width: 500px;
+    max-width: 100%;
+}
+form input{
+    border-radius: 50px;
+    font-size: 16px;
+    margin: 0;
+    padding: 15px 30px;
+    width: 100%;
+}
+header::after{
+    content: "";
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+
+
+

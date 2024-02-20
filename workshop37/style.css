@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: azure;
+    text-align: center;
+    margin: 0;
+}
+input{
+    display: block;
+    padding: 10px;
+    font-size: 15px;
+    margin-bottom: 10px;
+    outline: none;
+}
+button{
+    color: white;
+    background-color: blueviolet;
+    padding: 10px;
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    border-radius: 5px;
+    font-size: 16px;
+}
